@@ -1,4 +1,3 @@
-
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_ILI9341.h> // Hardware-specific library
 
@@ -14,20 +13,7 @@ Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_RST);
 
 
 
-
-
-
-
-
 String receivedText;
-
-
-
-
-
-
-
-
 
 void setup() {
   tft.begin();
